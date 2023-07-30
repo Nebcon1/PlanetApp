@@ -4,5 +4,6 @@
     "azureFunctions.projectRuntime": "~4",
     "debug.internalConsoleOptions": "neverOpen",
     "azureFunctions.preDeployTask": "publish (functions)",
-    "dotnet.defaultSolution": "src/App/App.sln"
+    "dotnet.defaultSolution": "src/App/App.sln",
+    "azureFunctions.projectSubpath": "src\\App\\bin\\Release\\net7.0\\publish"
 }
