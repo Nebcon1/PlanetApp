@@ -1,5 +1,6 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import '@testing-library/jest-dom';
+import App from '../App';
 
 it('renders planets header', () => {
   render(<App/>);
@@ -24,6 +25,7 @@ it('does not include pluto', () => {
 render(<App/>);
 const planet = screen.queryByText("Pluto");
 expect(planet).not.toBeInTheDocument();});
+//
 
 
 
