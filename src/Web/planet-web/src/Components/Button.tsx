@@ -4,7 +4,7 @@ type ButtonProps = {
     style: React.CSSProperties;
 }
 
-const Button= ({children, ...props}: ButtonProps) => {
+const Button = ({children, ...props}: ButtonProps) => {
     const {onClick, style} = props;
 
     return (
@@ -13,5 +13,3 @@ const Button= ({children, ...props}: ButtonProps) => {
 };
 
 export default Button;
-
-//integrate style prop

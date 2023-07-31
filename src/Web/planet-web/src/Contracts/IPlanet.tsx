@@ -1,4 +1,5 @@
 export interface IPlanet {    
+    id:number;
     name:string;
     distanceFromSun:number;
     mass:number;
