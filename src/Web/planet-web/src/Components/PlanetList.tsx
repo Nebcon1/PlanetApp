@@ -2,6 +2,7 @@ import { IPlanet } from "../Contracts/IPlanet"
 
 function PlanetList(){
 
+  // To be pulled from data store:
     const planets : IPlanet[] = [
       {name:'Mercury', diameter:1, distanceFromSun:1,mass:1,planetImage:''},
       {name:'Venus', diameter:1, distanceFromSun:1,mass:1,planetImage:''},
