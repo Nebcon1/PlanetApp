@@ -14,6 +14,7 @@ namespace planet.app
             _logger = loggerFactory.CreateLogger<planet_info_provider>();
         }
 
+        //TODO: Return Planet Information 
         [Function("planet_info_provider")]
         public HttpResponseData Run([HttpTrigger(AuthorizationLevel.Anonymous, "get", "post")] HttpRequestData req)
         {
