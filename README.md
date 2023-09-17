@@ -1,6 +1,6 @@
 # PlanetApp
 
-Repository for a planet information site, building my understanding of full-stack development (in particular React and Typescript).
+Repository for a planet information site.
 
 ## Building and Running
 
@@ -25,4 +25,3 @@ The application is currently being built via a github workflow (see tab) on chec
 - Planned data layer (Azure Table store or blob if overkill when implementing, flat JSON file works but doesn't meet task brief)
 - Adequate git branching policy and permissions, enforce passing build with tests, PRs and approvals before merge
 - Shared contract packaged for 'Planet' JSON object which covers app, web and data layers.
--
